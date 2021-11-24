@@ -1,0 +1,42 @@
+import turtle
+
+
+scrn = turtle.Screen() # Create/obtain the turtle screen object.
+bob = turtle.Turtle() # Create a turtle object, that we can use to draw. (I named it bob for some reason.)
+def drawH(bob, size=100):
+    bob.left(90)
+    bob.forward(100)
+    bob.penup()
+    bob.back(50)
+    bob.pendown()
+    bob.right(90)
+    bob.forward(50)
+    bob.left(90)
+    bob.forward(50)
+    bob.penup()
+    bob.back(50)
+    bob.pendown()
+    bob.back(50)
+    bob.penup()
+    bob.left(90)
+    bob.forward(45)
+    bob.right(180)
+    bob.pendown()
+    bob.color("red")
+    bob.left(90)
+    bob.forward(100)
+    bob.penup()
+    bob.back(50)
+    bob.pendown()
+    bob.right(90)
+    bob.forward(50)
+    bob.left(90)
+    bob.forward(50)
+    bob.penup()
+    bob.back(50)
+    bob.pendown()
+    bob.back(50)
+    turtle.done() 
+
+if __name__ == "__main__":
+    drawH()

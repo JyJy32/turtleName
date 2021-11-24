@@ -10,4 +10,11 @@ Jakub: Letter A, letter O,  letter K,
 =======
 Jakub: Letter A, letter O,  letter K,
 xander: letter x
+<<<<<<< HEAD
 >>>>>>> d9982d4492d10109f034f9bcaea6b82accc3abf3
+=======
+MichielLC: L, i
+MichielVS: M, H
+Lars: R
+Piet: P, t
+>>>>>>> 882bcdcfe061cc532f7004b8bdd590c6eb8e20a1
