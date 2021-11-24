@@ -2,4 +2,9 @@ Joren: Letter E, letter J
 Cédric: Letter C
 Damien: Letter N
 Dieter: letter D
-Jakub: Letter A, letter O,  letter K, 
+Jakub: Letter A, letter O,  letter K,
+xander: letter x
+MichielLC: L, i
+MichielVS: M, H
+Lars: R
+Piet: P, t
