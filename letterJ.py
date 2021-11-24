@@ -4,6 +4,7 @@ scrn = turtle.Screen()
 
 
 def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
+    t.penup()
     t.pencolor(colour)
     t.sety(size/2)
     t.right(90)
