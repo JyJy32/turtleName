@@ -11,9 +11,10 @@ def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
     t.pendown()
     t.circle(size/2, extent=180)
     t.forward(size)
-
-    turtle.penup()
-    turtle.setx(turtle.pos()[0]+ size)
+    t.penup()
+    t.backward(size*1.5)
+    t.right(90)
 
 if __name__ == "__main__":
     drawJ(t)
+    turtle.done()

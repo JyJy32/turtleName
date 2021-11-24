@@ -17,8 +17,9 @@ def drawE(t=turtle.Turtle(), size=100, colour="blue"):
     t.right(90)
     t.forward(size)
 
-    turtle.penup()
-    turtle.setx(turtle.pos()[0]+ size)
+    t.penup()
+    t.setx(turtle.pos()[0]+ size)
 
 if __name__ == "__main__":
     drawE(t)
+    turtle.done()
