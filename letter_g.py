@@ -6,7 +6,7 @@ bob = turtle.Turtle() # Create a turtle object, that we can use to draw. (I name
 
 
 
-def drawG():
+def drawG(bob):
     bob.color('green')
     bob.speed(2)
     bob.forward(90) # move forward 50 pixels
@@ -16,7 +16,11 @@ def drawG():
     bob.forward(200)
     bob.circle(-90, 180)
 
-drawG()
+
+if __name__ == "__main__":
+    drawG(bob)
 
 
 turtle.done() # cleanup
+
+#Andreo Van Onckelen
