@@ -20,7 +20,6 @@ def drawo():
     bob.circle(45, 90)
     bob.forward(150)
     bob.circle(45, 90)
-    turtle.done()  # cleanup
 
 
 if __name__ == "__main__":
