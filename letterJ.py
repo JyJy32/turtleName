@@ -1,7 +1,7 @@
 import turtle
 t = turtle.Turtle()
 scrn = turtle.Screen()
-t.penup()
+
 
 def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
     t.pencolor(colour)
