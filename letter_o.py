@@ -10,7 +10,7 @@ def drawo():
 
     bob.pensize(1)
     bob.penup()
-    bob.forward(22)
+    bob.forward(45)
     bob.pendown()
     bob.forward(45)
     bob.circle(45, 90)
