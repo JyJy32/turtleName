@@ -5,7 +5,7 @@ t.penup()
 
 def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
     t.pencolor(colour)
-    t.sety(50)
+    t.sety(size/2)
     t.right(90)
     t.pendown()
     t.circle(size/2, extent=180)
