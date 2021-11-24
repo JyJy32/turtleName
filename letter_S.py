@@ -8,15 +8,16 @@ def drawS():
 
     bob.pensize(1)
     bob.penup()
-    bob.setpos(50, 80)
+    bob.forward(20)
     bob.pendown()
 
     bob.forward(40)
-    bob.backward(40)
-    bob.circle(-45, -90)
-    bob.circle(-45, -95)
-    bob.circle(45, -185)
-    bob.backward(40)
+    bob.circle(45, 180)
+    bob.circle(-45, 180)
+    bob.forward(40)
+    bob.penup()
+    bob.right(90)
+    bob.forward(180)
 
 
 if __name__ == "__main__":
