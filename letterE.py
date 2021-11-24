@@ -2,18 +2,18 @@ import turtle
 t = turtle.Turtle()
 scrn = turtle.Screen()
 
-def drawE(t, size=100, colour="blue"):
+def drawE(t=turtle.Turtle(), size=100, colour="blue"):
     t.pencolor(colour)
     t.pendown()
     t.forward(size)
     t.backward(size)
     t.left(90)
-    t.forward(60)
+    t.forward(size*(3/5))
     t.right(90)
     t.forward(size*(7/10))
     t.backward(size*(7/10))
     t.left(90)
-    t.forward(60)
+    t.forward(size*(3/5))
     t.right(90)
     t.forward(size)
 
