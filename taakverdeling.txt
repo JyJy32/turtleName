@@ -3,3 +3,4 @@ Cédric: Letter C
 Damien: Letter N
 Dieter: letter D
 Jakub: Letter A
+michielVS: letter M, letter H
