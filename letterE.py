@@ -2,7 +2,7 @@ import turtle
 t = turtle.Turtle()
 scrn = turtle.Screen()
 
-def drawE(t=turtle.Turtle(), size=100, colour="blue"):
+def drawE(t, size=100, colour="blue"):
     t.pencolor(colour)
     t.pendown()
     t.forward(size)

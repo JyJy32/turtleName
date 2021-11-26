@@ -3,7 +3,7 @@ t = turtle.Turtle()
 scrn = turtle.Screen()
 
 
-def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
+def drawJ(t, size=100, colour="blue"):
     t.penup()
     t.pencolor(colour)
     t.sety(size/2)
