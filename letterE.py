@@ -5,17 +5,17 @@ scrn = turtle.Screen()
 def drawE(t, size=100, colour="blue"):
     t.pencolor(colour)
     t.pendown()
-    t.forward(size)
-    t.backward(size) #_
+    t.forward(size/2)
+    t.backward(size/2) #_
     t.left(90)
-    t.forward(size) #|
+    t.forward(size/2) #|
     t.right(90)
-    t.forward(size*(7/10)) #-
-    t.backward(size*(7/10))
+    t.forward(size*(2/7)) #-
+    t.backward(size*(2/7))
     t.left(90)
-    t.forward(size)#|
+    t.forward(size/2)#|
     t.right(90)
-    t.forward(size)
+    t.forward(size/2)
     t.penup()
 
     t.sety(t.pos()[1]-size*2)
