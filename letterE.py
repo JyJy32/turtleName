@@ -16,9 +16,10 @@ def drawE(t=turtle.Turtle(), size=100, colour="blue"):
     t.forward(size*(3/5))#|
     t.right(90)
     t.forward(size)
-
     t.penup()
-    t.sety(turtle.pos()[0]-(size*(3/5)))
+
+    t.sety(t.pos()[1]-size*(6/5))
+
 
 if __name__ == "__main__":
     drawE(t)
