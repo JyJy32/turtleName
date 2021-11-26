@@ -18,7 +18,7 @@ def drawE(t, size=100, colour="blue"):
     t.forward(size/2)
     t.penup()
 
-    t.sety(t.pos()[1]-size*2)
+    t.sety(t.pos()[1]-size)
 
 
 if __name__ == "__main__":
