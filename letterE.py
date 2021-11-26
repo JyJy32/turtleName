@@ -8,17 +8,17 @@ def drawE(t, size=100, colour="blue"):
     t.forward(size)
     t.backward(size) #_
     t.left(90)
-    t.forward(size*(3/5)) #|
+    t.forward(size) #|
     t.right(90)
     t.forward(size*(7/10)) #-
     t.backward(size*(7/10))
     t.left(90)
-    t.forward(size*(3/5))#|
+    t.forward(size)#|
     t.right(90)
     t.forward(size)
     t.penup()
 
-    t.sety(t.pos()[1]-size*(6/5))
+    t.sety(t.pos()[1]-size*2)
 
 
 if __name__ == "__main__":
