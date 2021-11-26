@@ -1,8 +1,3 @@
-import turtle
-t = turtle.Turtle()
-scrn = turtle.Screen()
-
-
 def drawJ(t, size=100, colour="blue"):
     t.penup()
     t.pencolor(colour)
@@ -16,5 +11,8 @@ def drawJ(t, size=100, colour="blue"):
     t.sety(t.pos()[1]-size)
 
 if __name__ == "__main__":
+    import turtle
+    t = turtle.Turtle()
+    scrn = turtle.Screen()
     drawJ(t)
     turtle.done()
