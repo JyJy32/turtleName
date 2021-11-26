@@ -12,8 +12,8 @@ def drawJ(t=turtle.Turtle(), size=100, colour="blue"):
     t.circle(size/2, extent=180)
     t.forward(size)
     t.penup()
-    t.backward(size*1.5)
     t.right(90)
+    t.sety(t.pos()[1]-(1.5*size))
 
 if __name__ == "__main__":
     drawJ(t)
