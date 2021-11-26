@@ -1,7 +1,3 @@
-import turtle
-t = turtle.Turtle()
-scrn = turtle.Screen()
-
 def drawE(t, size=100, colour="blue"):
     t.pencolor(colour)
     t.pendown()
@@ -22,5 +18,8 @@ def drawE(t, size=100, colour="blue"):
 
 
 if __name__ == "__main__":
+    import turtle
+    t = turtle.Turtle()
+    scrn = turtle.Screen()
     drawE(t)
     turtle.done()
