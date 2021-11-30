@@ -4,7 +4,7 @@ Damien: Letter N
 Dieter: letter D
 <<<<<<< HEAD
 michiel: l en i
-Jakub: Letter A, letter O,  letter K, 
+Jakub: Letter A,  letter K, 
 
 
 =======
