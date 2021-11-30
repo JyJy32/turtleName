@@ -1,20 +1,20 @@
 import turtle
 scrn = turtle.Screen()
-bob = turtle.Turtle()
+t = turtle.Turtle()
 
 
 def drawN():
 
-    bob.pensize(1)
-    bob.penup()
-    bob.forward(30)
-    bob.pendown()
-    bob.left(90)
-    bob.forward(150)
-    bob.right(150)
-    bob.forward(175)
-    bob.left(150)
-    bob.forward(155)
+    t.pensize(1)
+    t.penup()
+    t.forward(30)
+    t.pendown()
+    t.left(90)
+    t.forward(150)
+    t.right(150)
+    t.forward(175)
+    t.left(150)
+    t.forward(155)
 
 
 if __name__ == "__main__":
