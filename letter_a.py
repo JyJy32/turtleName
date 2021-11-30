@@ -1,8 +1,5 @@
 import turtle # load the turtle module
 
-scrn = turtle.Screen() # Create/obtain the turtle screen object.
-bob = turtle.Turtle() # Create a turtle object, that we can use to draw. (I named it bob for some reason.)
-
 '''
 Copy this template for each letter. Then change the functions.
 The placeholders in this file just draw rectangles.
@@ -37,6 +34,7 @@ def draw_letter_a(turtle, size=400):
     turtle.penup()
     turtle.setx(temppos[0] + size /2 + size / 40)
     turtle.sety(temppos[1])
+    turtle.setheading(0)
 
 
     
