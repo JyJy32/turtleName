@@ -13,7 +13,6 @@ def draw(t, size=400):
     t.fd(size / 10)
     t.penup()
     t.setx(size)
-    t.sety(size / 2)
 
 
 if __name__ == "__main__":
