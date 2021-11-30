@@ -4,8 +4,9 @@ import turtle  # load the turtle module
 def draw(t, size=400):
     scrn = turtle.Screen()
     t = turtle.Turtle()
-    turtle.penup()
-    turtle.setx(turtle.pos()[0] + size / 2 + size / 40)
+    t.penup()
+    t.setx(t.pos()[0] + size / 2 + size / 40)
+    t.pendown()
     t.fd(size / 10)
     t.rt(size / 2.2)
     t.fd(size / 13)
