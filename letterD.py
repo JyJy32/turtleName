@@ -5,7 +5,7 @@ bob = turtle.Turtle()  # Create a turtle object, that we can use to draw.
 
 
 def draw(bob, size=400):
-    bob.pendown
+    bob.pendown #forgot brackets?
     bob.left(90)
     bob.forward(size)
     bob.right(90)
