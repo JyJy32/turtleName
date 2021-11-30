@@ -6,16 +6,19 @@ def drawU(bob):
 
     bob.pensize(1)
     bob.penup()
-    bob.forward(50)
+    bob.left(90)
+    bob.forward(150)
+    bob.right(180)
     bob.pendown()
-    bob.forward(45)
+    bob.forward(150)
+    bob.circle(45, 90)
+    bob.forward(50)
     bob.circle(45, 90)
     bob.forward(150)
-    bob.backward(150)
-    bob.circle(45, -90)
-    bob.backward(45)
-    bob.circle(45, -90)
-    bob.backward(150)
+    bob.penup()
+    bob.right(180)
+    bob.forward(190)
+    bob.left(90)
 
 
 if __name__ == "__main__":
