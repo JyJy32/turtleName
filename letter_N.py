@@ -1,9 +1,7 @@
 import turtle
-scrn = turtle.Screen()
-t = turtle.Turtle()
 
 
-def drawN():
+def drawN(t):
 
     t.pensize(1)
     t.penup()
@@ -18,7 +16,9 @@ def drawN():
 
 
 if __name__ == "__main__":
-    drawN()
+    scrn = turtle.Screen()
+    jan = turtle.Turtle()
+    drawN(jan)
     turtle.done()
 
     # jounes
