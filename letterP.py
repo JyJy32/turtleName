@@ -1,23 +1,24 @@
 import turtle
 
-scrn = turtle.Screen()  # Create/obtain the turtle screen object.
-# Create a turtle object, that we can use to draw. (I named it bob for some reason.)
-bob = turtle.Turtle()
 
-
-def drawP(t, size=100, colour="blue"):
-
-    bob.left(90)
-    bob.forward(100)  # move forward 50 pixels
-    bob.right(90)  # turn left 90 degrees
-    bob.forward(30)
-    bob.circle(-22, extent=90, steps=5)
-    bob.circle(-22, extent=90, steps=5)
-    bob.forward(30)
-    bob.right(90)
-    turtle.penup()
-    turtle.setx(turtle.pos()[0] + size)
+def drawP(schild, size=300, colour="blue"):
+    startx, starty = schild.pos()
+    schild.pencolor(colour)
+    schild.left(90)
+    schild.forward(size)  # move forward 50 pixels
+    schild.right(90)  # turn left 90 degrees
+    schild.forward(90)
+    schild.circle(-66, extent=90, steps=5)
+    schild.circle(-66, extent=90, steps=5)
+    schild.forward(90)
+    schild.right(90)
+    schild.penup()
+    schild.setx(schild.pos()[0] + size/2)
+    schild.sety(starty)
+    schild.right(90)
 
 
 if __name__ == "__main__":
-    drawP(bob)
+    scrn = turtle.Screen()
+    schild = turtle.Turtle()
+    drawP(schild)

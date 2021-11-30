@@ -1,4 +1,4 @@
-def drawE(t, size=100, colour="blue"):
+def drawE(t, size=400, colour="blue"):
     t.pencolor(colour)
     t.pendown()
     t.forward(size/2)

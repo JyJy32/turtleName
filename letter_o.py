@@ -2,26 +2,25 @@
 import turtle
 
 
-scrn = turtle.Screen()
-bob = turtle.Turtle()
+def drawo(t):
 
-
-def drawo():
-
-    bob.pensize(1)
-    bob.penup()
-    bob.forward(45)
-    bob.pendown()
-    bob.forward(45)
-    bob.circle(45, 90)
-    bob.forward(150)
-    bob.circle(45, 90)
-    bob.forward(45)
-    bob.circle(45, 90)
-    bob.forward(150)
-    bob.circle(45, 90)
+    t.pensize(1)
+    t.penup()
+    t.forward(45)
+    t.pendown()
+    t.forward(45)
+    t.circle(45, 90)
+    t.forward(150)
+    t.circle(45, 90)
+    t.forward(45)
+    t.circle(45, 90)
+    t.forward(150)
+    t.circle(45, 90)
 
 
 if __name__ == "__main__":
-    drawo()
+    scrn = turtle.Screen()
+    jan = turtle.Turtle()
+    drawo(jan)
     turtle.done()
+    # jounes
