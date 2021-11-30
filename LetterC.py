@@ -22,17 +22,3 @@ if __name__ == "__main__":
     scrn = turtle.Screen()
     draw(t)
     turtle.done()
-
-
-# def draw(turtle, size=400):
-#     '''Draw lowercase letter.'''
-#     turtle.pensize(1)
-#     turtle.setheading(0)
-#     turtle.pencolor('grey')
-#     turtle.pendown()
-#     for s in (1, 2):
-#         for side in (size / 2, size):
-#             turtle.forward(100)
-#             turtle.left(90)
-#     turtle.penup()
-#     turtle.setx(turtle.pos()[0] + size / 2 + size / 40)
