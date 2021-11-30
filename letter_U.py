@@ -2,11 +2,7 @@
 import turtle
 
 
-scrn = turtle.Screen()
-bob = turtle.Turtle()
-
-
-def drawU():
+def drawU(bob):
 
     bob.pensize(1)
     bob.penup()
@@ -23,5 +19,7 @@ def drawU():
 
 
 if __name__ == "__main__":
-    drawU()
+    scrn = turtle.Screen()
+    bob = turtle.Turtle()
+    drawU(bob)
     turtle.done()
