@@ -4,6 +4,7 @@ bob = turtle.Turtle()
 
 
 def drawN():
+
     bob.pensize(1)
     bob.penup()
     bob.forward(30)
@@ -19,3 +20,5 @@ def drawN():
 if __name__ == "__main__":
     drawN()
     turtle.done()
+
+    # jounes
