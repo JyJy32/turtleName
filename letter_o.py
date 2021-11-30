@@ -25,3 +25,4 @@ def drawo():
 if __name__ == "__main__":
     drawo()
     turtle.done()
+    # jounes
