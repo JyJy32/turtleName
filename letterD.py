@@ -1,7 +1,5 @@
 import turtle  # load the turtle module
 
-scrn = turtle.Screen()  # Create/obtain the turtle screen object.
-bob = turtle.Turtle()  # Create a turtle object, that we can use to draw.
 
 
 def draw(bob, size=400):
@@ -15,4 +13,7 @@ def draw(bob, size=400):
 
 
 if __name__ == "__main__":
-    draw(bob)
+    
+    scrn = turtle.Screen()  # Create/obtain the turtle screen object.
+    jan = turtle.Turtle()  # Create a turtle object, that we can use to draw.
+    draw(jan)
