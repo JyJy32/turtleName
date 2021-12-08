@@ -35,8 +35,6 @@ def draw_letter_a(turtle, size=400):
     turtle.setx(temppos[0] + size /2 + size / 40)
     turtle.sety(temppos[1])
     turtle.setheading(0)
-
-
     
 
 def draw_capital_letter_a(turtle, size=400):
