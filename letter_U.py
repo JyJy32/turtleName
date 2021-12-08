@@ -2,28 +2,32 @@
 import turtle
 
 
-def drawU(bob, size=100):
+def drawU(t, size=100, colour="blue"):
 
-    bob.pensize(1)
-    bob.penup()
-    bob.left(90)
-    bob.forward(1.5*size)
-    bob.right(1.8*size)
-    bob.pendown()
-    bob.forward(1.5*size)
-    bob.circle(0.45*size, 90)
-    bob.forward(0.5*size)
-    bob.circle(0.45*size, 90)
-    bob.forward(1.5*size)
-    bob.penup()
-    bob.right(180)
-    bob.forward(1.9*size)
-    bob.left(90)
-    bob.forward(0.1*size)
+    t.pensize(1)
+    t.penup()
+    t.forward(size*0.50)
+    t.pendown()
+    t.forward(size*0.125)
+    t.circle(45, 90)
+    t.forward(size*1.4)
+    t.penup()
+    t.left(90)
+    t.forward(size*1)
+    t.left(90)
+    t.pendown()
+    t.forward(size*1.4)
+
+    t.circle(45, 90)
+
+    t.penup()
+    t.forward(size*0.80)
+    t.pendown()
 
 
 if __name__ == "__main__":
     scrn = turtle.Screen()
-    bob = turtle.Turtle()
-    drawU(bob)
+    jan = turtle.Turtle()
+    drawU(jan)
     turtle.done()
+    # jounes

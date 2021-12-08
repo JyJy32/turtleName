@@ -1,7 +1,7 @@
 import turtle
 
 
-def drawN(t):
+def drawN(t, size=100):
 
     t.pensize(1)
     t.penup()
@@ -13,6 +13,11 @@ def drawN(t):
     t.forward(175)
     t.left(150)
     t.forward(155)
+    t.right(180)
+    t.penup
+    t.forward(155)
+    t.left(90)
+    t.forward(10)
 
 
 if __name__ == "__main__":
